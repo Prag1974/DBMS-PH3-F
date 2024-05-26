@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# How to run?
 
-First, run the development server:
+Firstly you have to download NodeJS and MYSQL.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+NodeJS: https://nodejs.org/en
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+MySQL: https://www.mysql.com
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Then you should import my database dump.
+When its done, please open a CLI (it could be Git Bash or Windows Default CLI)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Type "node -v" to check if node has been installed.
 
-## Learn More
+Select the directory with my project code.
 
-To learn more about Next.js, take a look at the following resources:
+Then type "npm i" to download essential modules.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Find db.ts file under app/libs directory. And enter the required information about database.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Make sure schema name is entered correctly.
 
-## Deploy on Vercel
+In CLI you should be in ./ directory then type "npm dev run." And press enter. There should be a URL in CLI which you can CTRL + Left Click in VSCode or open a browser and enter that URL.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+So, here is my application. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If something goes wrong, please contact me: +90 546 486 34 15
+
